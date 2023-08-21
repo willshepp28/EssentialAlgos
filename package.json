@@ -1,0 +1,9 @@
+{
+  "name": "EssentialAlgos",
+  "version": "1.0.0",
+  "description": "EssentialAlgos is a curated collection of my personal approaches and solutions to popular coding challenges from platforms like LeetCode, HackerRank, CodeByte, and more. Each solution isn't just an answer, but a journey of problem-solving and critical thinking, laid out for clarity and deeper understanding.",
+  "main": "app.js",
+  "repository": "https://github.com/willshepp28/EssentialAlgos.git",
+  "author": "willshepp28 <willsheppard29@gmail.com>",
+  "license": "Apache License 2.0"
+}
