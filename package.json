@@ -7,9 +7,10 @@
   "author": "willshepp28 <willsheppard29@gmail.com>",
   "license": "Apache License 2.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
-    "jest": "^29.6.3"
+    "jest": "^29.6.4"
   }
 }
