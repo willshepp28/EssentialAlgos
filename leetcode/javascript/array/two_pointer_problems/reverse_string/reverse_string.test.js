@@ -10,6 +10,5 @@ test('Reverse a longer array of strings', () => {
     let arrayOfStrings = ["h","e","l","l","o"];
 
     reverseString(arrayOfStrings);
-    console.log(arrayOfStrings)
     expect(arrayOfStrings).toStrictEqual(["o","l","l","e","h"]);
 })
