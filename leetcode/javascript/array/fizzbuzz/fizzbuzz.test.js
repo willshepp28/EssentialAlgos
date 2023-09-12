@@ -10,7 +10,7 @@ describe('FizzBuzz Tests', () => {
     describe('Empty Array Tests', () => {
         test.each([
             [originalFizzBuzz, 'Returns an empty array when given no values'],
-            [fizzBuzzV2, 'Returns an empty array when given no values']
+            [fizzBuzzVersion2, 'Returns an empty array when given no values']
         ])('%s', (func, description) => {
             checkReturnsEmptyArray(func);
         });
@@ -29,7 +29,12 @@ describe('FizzBuzz Tests', () => {
     });
 
     describe('Output for Input 15', () => {
-        test('Should return the expected FizzBuzz sequence up to 15', () => {
+        test('Original version should return the expected FizzBuzz sequence up to 15', () => {
+            const arr = originalFizzBuzz(15);
+            expect(arr).toStrictEqual(["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]);
+        });
+
+        test('Version 2 should return the expected FizzBuzz sequence up to 15', () => {
             const arr = fizzBuzzVersion2(15);
             expect(arr).toStrictEqual(["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]);
         });
