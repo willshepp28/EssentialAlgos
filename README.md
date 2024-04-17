@@ -1,4 +1,3 @@
-
 ![2](https://github.com/willshepp28/EssentialAlgos/assets/28759252/4be3c667-edbf-4844-8047-5a06f5c09a5d)
 
 ## Overview
@@ -7,7 +6,7 @@ EssentialAlgos is a curated collection of my personal approaches and solutions t
 
 ## Purpose
 
-- **Showcase**: This repository is a portfolio of my coding journey, detailing the thought processes, strategies, and solutions I've formulated for various coding challenges.
+- **Showcase**: This repository is a portfolio of my coding journey, detailing the thought processes, strategies, and solutions I've formulated for various coding challenges!
 - **Share Knowledge**: By sharing my approaches, I hope to provide insights and potentially different angles to tackle these challenges.
 
 ## Platforms Covered
@@ -15,7 +14,7 @@ EssentialAlgos is a curated collection of my personal approaches and solutions t
 - **LeetCode**
 - **HackerRank**
 - **CodeByte**
-- *...and more to come!*
+- _...and more to come!_
 
 ## Testing
 
